@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class ATM{
     float Balance;
-    int PIN = 7065;
+    int PIN = xxxx;
 
     public void checkpin(){
         Scanner scanner  =new Scanner(System.in);
@@ -24,6 +24,7 @@ class ATM{
         System.out.println("4. Exit :");
 
         Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your preference : ");
         int option = scanner.nextInt();
 
         if (option == 1){
